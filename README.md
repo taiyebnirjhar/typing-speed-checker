@@ -1,3 +1,5 @@
+<h1><a href="https://nirjhor-assigntment-7.netlify.app/" target="_blank">Live</a></h1>
+
 ##### NOTE: click on logo to switch pages
 
 ##### PRIMARY TASKS
@@ -24,8 +26,3 @@
    <ol> ii. block scope vs global scope  ✔️</ol>
    <ol> iii. event loop in js ✔️</ol> 
    <ol> iv. ways to get undefined ✔️</ol>
-
-##### IMPORTANT LINKS
-
-1. private repo: ( https://github.com/programming-hero-web-course1/b6-type-monster-debug-assignment-taiyebnirjhar );
-2. deployed repo: ( https://nirjhor-assigntment-7.netlify.app/ );
