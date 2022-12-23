@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Speed Monster</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@300;400;500&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+
+    <h1 class="title">
+        <a href="index.html">
+            <img src="./images/logo.png" />
+        </a>
+    </h1>
+    <div class="box-container">
+
+
+        <div class="divider-container">
+            <div class="line"></div>
+            <h1 class="title2">Blog</h1>
+            <div class="line"></div>
+        </div>
+        <div>
+            <div class="card">
+                <h3>local storage vs session storage</h3>
+                <p><span class="bold red">Session storage</span> is similar to <span class="bold red">Local storage.
+                    </span>The difference is that <span class="bold">
+                        while data in localStorage doesn't expire, data in sessionStorage is cleared when the page
+                        session ends. </span>Whenever a document is loaded in a particular tab in the browser, a unique
+                    page session gets created and assigned to that particular tab.</p>
+
+            </div>
+            <div class="card">
+                <h3>block scope vs global scope</h3>
+                <p><span class="bold red">Function Scope: </span> When a variable is declared inside a function, it is
+                    only accessible within that function and cannot be used outside that function. <br>
+                    <span class="bold red">Block Scope:
+                    </span> variable when declared inside the if or switch conditions or inside for or while loops, are
+                    accessible within that particular condition or loop.
+                </p>
+
+            </div>
+            <div class="card">
+                <h3>What is an event loop in JS?</h3>
+                <p><span class="bold red"> Event loop </span><span class="bold"> is an endless loop, which waits for
+                        tasks, executes them and then
+                        sleeps until it receives more tasks.</span> The event loop executes tasks from the event queue
+                    only when the call stack is empty i.e. there is no ongoing task. The event loop allows us to use
+                    callbacks and promises.
+                </p>
+
+            </div>
+            <div class="card">
+                <h3>What is an event loop in JS?</h3>
+                <p><span class="bold red"> Event loop </span><span class="bold"> is an endless loop, which waits for
+                        tasks, executes them and then
+                        sleeps until it receives more tasks.</span> The event loop executes tasks from the event queue
+                    only when the call stack is empty i.e. there is no ongoing task. The event loop allows us to use
+                    callbacks and promises.
+                </p>
+
+            </div>
+            <div class="card">
+                <h3>ways to get undefined?</h3>
+                <p>The short answer is that JavaScript interpreter returns
+                    <span class="bold red"> undefined</span> when accessing a variable or object property that is not
+                    yet initialized. There are many scenarios that can causes undefined. such as
+                <ul class="bold">
+                    i. Uninitialized variable <br>
+                    ii. Accessing a non-existing property <br>
+                    iii. undefined function parameters <br>
+                    iv. returning undefined value from a function <br>
+                    v. avoiding operators. etc
+                </ul>
+
+                </p>
+
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
